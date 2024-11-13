@@ -1,0 +1,69 @@
+/* Welcome page CSS file */
+
+body {
+    background-image: url('cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3BmLW1jOC1ha2UwODA0Ni1uYW0tY2hpbS1qb2I1NzAtMS5qcGc.webp');
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+/* Centering and spacing for headings */
+.heading {
+    text-align: center;
+    margin-top: 150px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.heading1 {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.sign-up-button, .login-button {
+    width: 200px;
+    height: 50px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: solid;
+    border-color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: white;
+}
+
+.sign-up-button:hover, .login-button:hover {
+    background-color: pink;
+}
+
+.expanse {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.shortdec {
+    text-align: left;
+    margin-top: 300px;
+    margin-left: 20px;
+    padding: 10px;
+}
