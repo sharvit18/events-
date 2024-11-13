@@ -1,0 +1,97 @@
+body {
+    background-image: url('cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3BmLW1jOC1ha2UwODA0Ni1uYW0tY2hpbS1qb2I1NzAtMS5qcGc.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+h1 {
+    color: #fff;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 50px auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid black;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+select {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+    border-color: #45a049;
+}
+
+.expense-table th,
+.expense-table td {
+    color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.total-amount {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: right;
+    color: #fff;
+}
+.select {
+    background-color: transparent; /* Make background transparent */
+     border: 1px solid #ccc; /* Optional: to keep border consistent */
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+}
+.option{
+    color: black;
+}
+.name{
+    color: lightgray;
+}
+/* Make all input text color black */
+input[type="text"],
+input[type="date"],
+input[type="time"],
+select {
+    color: black; /* Text color for inputs and select dropdown */
+    border-color: black; /* Black border for inputs and select dropdown */
+}
+
+/* Add a black border around the container */
+.container {
+    border: 2px solid black; /* Black border for the container */
+    padding: 20px; /* Optional padding inside the container */
+    border-radius: 5px; /* Optional: Rounded corners */
+}
+
+/* Ensure button text is also black for consistency */
+.button {
+    color: black;
+}
+
